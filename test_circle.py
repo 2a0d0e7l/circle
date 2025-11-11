@@ -23,7 +23,7 @@ class CircleTestCase(unittest.TestCase):
         self.assertAlmostEqual(res1, 2 * math.pi, places=5)
         self.assertAlmostEqual(res2, 4 * math.pi, places=5)
 
-    def test_perimeter_positive(self):
+    def test_perimeter_positive2(self):
         res1 = perimeter(1)
         res2 = perimeter(2)
         res3 = perimeter(5)
